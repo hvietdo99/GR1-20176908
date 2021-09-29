@@ -4,7 +4,7 @@ import keras
 from keras.models import Model
 from keras.layers import concatenate, Conv2D, Activation
 from keras.layers import UpSampling2D, Conv2DTranspose, BatchNormalization, Dropout
-from keras.optimizers import Adam
+# from keras.optimizers import Adam
 from keras.models import load_model
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
